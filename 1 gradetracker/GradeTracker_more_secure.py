@@ -10,7 +10,7 @@ https://blog.gitguardian.com/how-to-handle-secrets-in-python/
 '''
 #import libraries (aka module) first
 import statistics as s
-from dotenv import load_dotenv
+from dotenv import load_dotenv # type: ignore
 import os
 
 #Now we can load the login and password from the .env file. They are no longer exposed in the code.
